@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="images/fast-food.png" type="image/x-icon">
+</head>
+<body id="home">
+ 
+
+<!-- splash screen  -->
+       <div class="splash-screen">
+        <img src="images/splash.gif" alt="Loading...">
+    </div>
+
+<!-- registeration section  -->
+    <section class="register-section">
+        <div class="search">
+            <div><input type="text" placeholder="search here"></div>
+            <div ><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="18px" fill="#FFFFFF"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></div>
+    </div>
+        <div class="logo">
+            <div class="img" > <img src="images/spoon1.png" alt=""></div>
+            <div class="company-text">COMPANY LOGO</div>
+             
+        </div>
+        <div class="login">
+            
+            <div class="login-text" id="loginPop">
+                <a href="#" id="registerLink" onclick="register()">Register</a> /
+                <span> <a href="#" id="loginLink" onclick="login()">Login</a></span>
+            </div>
+           
+            
+        
+            
+            
+            <div class="heart" id="heart" onclick="redHeart()"><i class="fas fa-heart"></i></div>
+
+
+            <div class="cart" id="cart" onclick="cartClick()"> <i class="fas fa-shopping-cart"></i></div>
+        </div>
+
+    </section>
+
+    <!-- nav bar section  -->
+    <section class="nav">
+        <div class="nav-bar">
+            <div> <a href=""> HOME</a></div>
+        <div> <a href="#about"> ABOUT US</a></div>
+        <div> <a href="#service"> SERVICE</a></div>
+        <div> <a href="#pricing"> PRICING</a></div>
+        <div> <a href="#blog"> BLOG</a></div>
+        <div> <a href="#contact"> CONTACT</a></div>
+        
+        </div>
+       
+       <label for="" class="menu-icon" id="menuClick" onclick="sideBar()"> <i class="fa fa-bars"></i></label>
+       <!-- side nav bar  -->
+<div id="nav1">
+    <div class="nav-bar1">
+        <div> <a href=""> HOME</a></div>
+        <div> <a href="#about"> ABOUT US</a></div>
+        <div> <a href="#service"> SERVICE</a></div>
+        <div> <a href="#pricing"> PRICING</a></div>
+        <div> <a href="#blog"> BLOG</a></div>
+        <div> <a href="#contact"> CONTACT</a></div>
+        <div><a href="" id="cart" onclick="cartClick()">ORDER</a></div>
+        <div> <a href="#contact"  onclick="register()"> REGISTER</a></div>
+        <div> <a href="#contact" onclick="login()"> SIGNIN</a></div>
+   
+     
+    
+    </div>
+</div> 
+       
+    </section>
+    
+        
+       
+   <!-- american food section  -->
+     
+    <section class="american-food " id="american-food">
+        <div class="first-part">
+            <div class="first-text new-text">AMERICAN FOOD</div>
+            <div class="taste"><div class="box">The Best Taste Fo</div><span class="span">od</span></div> 
+            <div class="lorem">lorem Ipsum available, but the majority have suffered alteration in some from, by injected homour, or randomised words</div>
+
+            <div class="btn"> 
+                <button class="first-btn" id="clickOrder" onclick="orderClick()">Order Now</button>
+                <button class="second-btn1"> ←</button>  
+            </div>
+        </div>
+
+        <div class="american-image"><img  src=" images/american food.png" alt=""></div>
+
+    </section >
+
+    <!-- about section  -->
+    <section class="about" id="about">
+        <div class="about-text">
+            <div class="background-text">ABOUT US</div>
+            <div class="uper-text">ABOUT US</div>  
+        </div>
+        <div class="lorem"> Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour</div>
+        <div class="about-first-card">
+            <div class="first-part">
+                <div class="first-text">AMERICAN FOOD</div>
+                 
+                <div class="lorem">lorem Ipsum available, but the majority have suffered alteration in some from, by injected homour, or randomised words which don't look even slightly believable. If you are going to use a passage <br> Lorem Ipsum you need to be sure there isn't anything embarrassing hidden in the middle of text.</div>
+                <div class="btn"> 
+                    <button class="about-btn" id="ordera" onclick="orderClick()">Order Now</button>
+                    <button class="second-btn1"  > ←</button>  
+                      
+
+
+ 
+
+                </div>
+            </div>
+            <div class="video-box1">
+                <div class="video-box" > <iframe width="440" height="216" src="https://www.youtube.com/embed/Seg3Rmts7Yo" title="The Heat of the Curry Master&#39;s Kitchen on a Busy Friday Night at Shambhala Village Indian Restaurant" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </div>
+            
+            </div>
+        </div>
+
+        <div class="about-first-card card-two">
+            <div class="video-box2">
+                <div class="video-box" ><iframe width="440" height="216" src="https://www.youtube.com/embed/Seg3Rmts7Yo" title="The Heat of the Curry Master&#39;s Kitchen on a Busy Friday Night at Shambhala Village Indian Restaurant" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            
+            </div>
+            
+            <div class="first-part card-two ">
+                <div class="first-text card-two">AMERICAN FOOD</div>
+                 
+                <div class="lorem card-two">lorem Ipsum available, but the majority have suffered alteration in some from, by injected homour, or randomised words which don't look even slightly believable. If you are going to use a passage <br> Lorem Ipsum you need to be sure there isn't anything embarrassing hidden in the middle of text.</div>
+                <div class="btn"> 
+                    <button class="about-btn" id="orderb" onclick="orderClick()">ORDER NOW</button>
+                    <button class="second-btn1"> ←</button>  
+                </div>
+            </div>
+            
+        </div>
+
+         
+    </section>
+
+    <!-- buy section  -->
+    <section class="buy-section" id="service">
+        <div class="first-card">
+            <div class="basic">
+                 Basic
+                     <div>$35</div>
+                 
+            </div>
+            <div class="pis">
+                <div>6 Pis Chicken</div>
+                <div> 3 Pis Beef Chicken</div>
+                <div> 2 Pis Burger</div>
+                <button class="second-btn"  onclick="orderClick()">ORDER NOW</button>
+            </div>
+        </div>
+        <div class="first-card">
+            <div class="basic">
+                 Standards
+                     <div>$45</div>
+                 
+            </div>
+            <div class="pis">
+                <div>6 Pis Chicken</div>
+                <div> 3 Pis Beef Chicken</div>
+                <div> 2 Pis Burger</div>
+                <button class="second-btn" onclick="orderClick()">ORDER NOW</button>
+            </div>
+        </div>
+        <div class="first-card third">
+            <div class="basic">
+                 Premium
+                     <div>$55</div>
+                 
+            </div>
+            <div class="pis">
+                <div>6 Pis Chicken</div>
+                <div> 3 Pis Beef Chicken</div>
+                <div> 2 Pis Burger</div>
+                <button class="second-btn" onclick="orderClick()">ORDER NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- discount section  -->
+    <section class="discount" id="pricing">
+        <div class="discount-img"><img src="images/sale.png" alt=""></div>
+        <div class="discount-text">
+            <div>Special</div>
+            <div class="first-text"> SALE 50% DISCOUNT</div>
+            <div class="food">ALL FOOD PRODUCTS</div>
+            <div>lorem Ipsum available, but the majority have suffered alteration in some from, by injected homour, or randomised words of Lorem Ipsum, you need to be sure</div>
+            <button class="second-btn" onclick="orderClick()">ORDER NOW</button>
+       
+        </div>
+
+    </section>
+    
+    <!-- belog section  -->
+
+    <section class="about belog" id="blog">
+        <div class="about-text ">
+            <div class="background-text">BELOG</div>
+          <div class="uper-text">BELOG</div>  
+        </div>
+        <div> Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour</div>
+        
+         <div class="belog-cards">
+            <div class="imgs"><img src="images/food left.png" alt=""></div>
+            <div class="middle">
+                <h2 class="middle-text">Eat food. Not much mostly plants.</h2>
+                <div class="middle-lorem" id="less"> Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour randomised words.</div>
+                <button class="second-btn" id="second-btn" onclick="more()">Read more</button>
+       
+            </div>
+            <div class="imgs left"><img src="images/food left.png" alt=""></div>
+         </div>
+
+         
+    </section>
+
+     <!-- footer section  -->
+    <footer class="footer" id="contact">
+        <div class="footer-first-image"><img src="images/triangle.png" alt=""></div>
+        <div class="register-section">
+            <div class="logo">
+                <div class="img" > <img src="images/spoon1.png" alt=""></div>
+                <div>COMPANY LOGO</div>
+                <h2>AMERICAN FOOD</h2>
+                <h4>The Best Taste Food</h4>
+                <div class="icons">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i> </a>
+                    <a href=" https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook"></i> </a>
+                    <a href="https://www.linkedin.com/" target="_blank"> <i class="fa-brands fa-linkedin"></i> </a>
+                    <a href="https://www.whatsapp.com/" target="_blank"> <i class="fa-brands fa-whatsapp"></i> </a>
+                </div>
+                <h2>yourwebsite.com</h2>
+                 
+            </div>
+        </div>
+        <div class="footer-second-image"><img src="images/Screenshot 2024-12-08 221706.png" alt=""></div>
+    </footer>
+
+    <!--  login popup  -->
+     <div id="signincontainer">
+        <div id="cancel" onclick="cancelClick()">&times;</div>
+        <div class="login-pop" id="loginpop">
+            <h1>LOGIN PAGE</h1>
+            <input type="text" name="" id="" placeholder="Email">
+            <br><input type="text" name="" id="" placeholder="Password">
+           <div class="singup-links">
+            <div><a href="" id="signupPopUp" onclick="register()" >SignUp</a></div>
+           <div><a href="">ForgetPassword</a></div> 
+        </div>
+            <button type="button" class="submit">Submit</button>
+        </div>
+
+        <!-- signup popup  -->
+        <div id="signup">
+            <h1>SIGNUP PAGE</h1>
+            <input type="text" name="" id="" placeholder="UserName">
+            <input type="text" name="" id="" placeholder="email">
+            <input type="text" name="" id="" placeholder="password">
+            <input type="text" name="" id="" placeholder="confirm password">
+            <div class="signin-links">
+                <div><a href="" class="signinA" onclick="login()"> Signin</a></div>
+                <div><a href="">forgotpassword</a></div>
+            </div>
+            <button class="submit">Submit</button>
+        </div>
+
+       <!-- order popup  -->
+        <div id="order">
+            <h1>ORDER PAGE</h1>
+             
+
+    <select name="Items" class="items">
+  <option value="" class="option">Select Items</option>
+  <option value="Burger" class="option">Burger</option>
+  <option value="Fries" class="option">Fries</option>
+  <option value="Drink" class="option">Drink</option>
+  <option value="Pizza" class="option">Pizza</option>
+    </select>
+    <input type="number" name="" class="quantity" placeholder="Quantity">
+            <input type="text" name="" class="address" placeholder="Address">
+            
+            <input type="text" name="" class="mobileNo" placeholder="Mobile No:">
+            <select name="Payment" class="payment">
+                <option value="">Payment</option>
+                <option value="Online">Online</option>
+                <option value="Cash">Cash</option>
+                
+              </select>
+             
+            <button class="submit" onclick="submitOrder()">Submit</button>
+        </div>
+       
+        
+</div>
+ 
+<!-- order table  -->
+ <div id="table">
+    <section class="register-section table-section">
+        <div id="back" onclick="backHome()">BACK</div>
+         <div class="logo">
+             <div class="img" > <img src="images/spoon1.png" alt=""></div>
+             <div class="company-text">COMPANY LOGO</div>
+             </div>
+             <div></div>
+             </section>
+<table class="userTable">
+    <thead>
+        <th>ID</th>
+    <th>Item</th>
+    <th>Quatity</th>
+    <th>Address</th>
+    <th>Payment</th>
+    <th>Payment</th>
+    <th>Date</th>
+    <th>Timing</th>
+    </thead>
+    <tbody></tbody>
+    
+
+ </table></div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
